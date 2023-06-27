@@ -1,0 +1,96 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+entity contador is
+
+	port
+	(
+		-- Input ports
+		clk: in  std_logic;
+		star: in std_logic;
+		reset: in std_logic;
+		
+		-- Output ports
+		f	: out std_logic;
+		
+end contador;
+
+
+architecture cont of contador is
+
+	component div_frec
+		port(
+			-- Input ports
+			clk: in  std_logic;
+			Nciclos: in	integer;			-- número de ciclos para la frecuencia deseada
+			
+			-- Output ports
+			f: out std_logic);
+	end component;
+	signal Nciclos1: integer := 25000000;
+	signal Nciclos2: integer := 156250;
+	signal Nciclos3: integer := 125000;
+	signal freq1: std_logic;
+	signal freq2: std_logic;
+	signal freq3: std_logic;
+	component anti
+	port(
+		-- Input ports
+		clk: in  std_logic;
+		btn_entrada: in std_logic;			
+		
+		-- Output ports
+		btn_salida: out std_logic);
+	signal star1: std_logic;
+	signal reset1: std_logic;
+	
+	
+	component ffjk
+	port
+	(
+		-- Input ports
+		J,K: in  std_logic;
+		rst: in std_logic;
+		clk: in	std_logic;
+
+		-- Output ports
+		Q	: out std_logic);
+		signal q0:std_logic;
+		signal q1:std_logic;
+		signal q2:std_logic;
+		signal q3:std_logic;
+		signal q4:std_logic;
+      signal q5:std_logic;
+		signal jk2: std_logic;
+		signal jk3: std_logic;
+		signal jk4: std_logic;
+		signal jk5: std_logic;
+		
+begin
+
+	-- frecuencias requeridas
+	Cfreq1 : div_frec port map ( clk, Nciclos1, freq1); --frecuencia de 1Hz para el contador
+	Cfreq2 : div_frec port map ( clk, Nciclos2, freq2); --frecuencia de 160Hz para para anti rebote
+	Cfreq3 : div_frec port map ( clk, Nciclos3, freq3);
+	--anti rebote
+	anti1 : anti port map (freq2,star,star1  ); -- antirebote boton inicio
+	anti2 : anti port map (freq2,reset,reset1  ); --antirebote boton reset
+    --contador
+	 ffQ0 : ffjk port map (1,1,reset1,freq1,q0); --primer flip flop jk=1
+	 ffQ1 : ffjk port map (q0,q0,reset1,freq1,q1); -- ff1 : j y k = q0
+	 jk2 <= q0 and q1 and not q3 and notq4 and not q5;
+	 ffQ2 : ffjk port map (jk2,jk2,reset1,freq1,q2);-- ff2 : jk = q0q1q3'q4'q5'
+	 jk3 <= q0 and q1 and (q2 or (q3 and q4 and q5));
+	 ffQ3 : ffjk port map (jk3,jk3,reset1,freq1,q3);-- ff3 : jk = q0q1(q2+q3q4q5)
+	 jk4 <= q0 and q1 and q3 and (q2 or (q4 and q5));
+	 ffQ4 : ffjk port map (jk4,jk4,reset1,freq1,q4);-- ff4	: jk = q0q1q3(q2+q4q5)
+	 jk5 <= q0 and q1 and q3 and q4 and (q2 or q5);
+	 ffQ5 : ffjk port map (jk5,jk5,reset1,freq1,q5);-- ff5 : jk = q0q1q3q4(q2+q5)
+		
+	 
+	 
+	 
+	
+end cont;

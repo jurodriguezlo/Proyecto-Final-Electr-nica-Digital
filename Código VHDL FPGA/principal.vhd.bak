@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+entity Principal is
+
+	port
+	(
+		-- Input ports
+		clk: in  std_logic;
+		star: in std_logic;
+		reset: in std_logic;
+		
+		-- Output ports
+		t1 : buffer std_logic; 
+		t2 : buffer std_logic;
+		segmentos	: out std_logic_vector(6 downto 0) );
+		
+end principal;
+
+
+architecture proyec of principal is
+	
+begin
+
+	
+end proyec;
