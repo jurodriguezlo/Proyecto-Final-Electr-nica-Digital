@@ -89,9 +89,18 @@ Con las siguientes conexiones de la FPGA al teclado matricial:
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Conexiones_Teclado_2x.jpg)
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Conexiones_Teclado_3x.jpg)
 ## Video  
- ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Video/video4960777000286421766_2.mp4)
+ Link del video en youtube:  
+ https://youtu.be/ucgpaSq-A_4
 
-## Referencias
+## Referencias  
+
+•	https://www.portafolio.co/negocios/este-dispositivo-optimiza-el-consumo-de-energia-electrica-en-hogares-y-oficinas-553422  
+
+•	https://www.elcolombiano.com/negocios/ecosmart-el-dispositivo-que-reduce-hasta-25-el-consumo-de-energia-JF9063446  
+
+•	https://www.minenergia.gov.co/documents/10180/234066/Boletin+Estadistico+Mensual+septiembre+2021.pdf/6e12d6ec-c931-4a00-aa1e-3463f4b4cb7f  
+
+•	https://www.dnp.gov.co/DNPN/Paginas/Consumo-de-energ%C3%ADa-el%C3%A9ctrica-en-Colombia---2020.aspx
 
 
 
