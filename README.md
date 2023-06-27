@@ -12,24 +12,6 @@ En Colombia muchas personas tienen dificultades para pagar sus facturas de energ
 Se realizo un detallado diagrama de bloques que permite visualizar de manera precisa todos los componentes que conforman el proyecto finalizado. Este diagrama proporciona una representación gráfica clara y completa de cada uno de los elementos involucrados en el proyecto, lo que facilita su comprensión y análisis.
 
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Esq1x.jpg)
-## Tablas de verdad  
-
- Se diseño una maquina de estados tipo moore con la siguiente codificacion de entradas.  
-
- ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Tabla1.jpg)  
-
- Tabulacion de las tablas de estado presente y futuro:
- 
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Tabla1.jpg)  
-
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Tabla2x.jpg) 
-## Mapas de Karnaugh  
-
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Kar1.jpeg)  
-
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Kar2.jpeg)  
-
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Kar3.jpeg)  
 
 ## Diagramas de flujo 
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/ASMR1x.jpg)  
@@ -38,9 +20,30 @@ Se realizo un detallado diagrama de bloques que permite visualizar de manera pre
 
 ## Máquina de estados  
 
+ Se diseño una maquina de estados tipo moore con la siguiente codificacion de entradas.  
+
+ ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Codx.jpg)  
+
+ 
 Esta es la máquina de estados que permite guardar los números del teclado:  
 
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Estados1x.jpg)  
+
+Con la siguiente tabla de verdad:  
+
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Tabla1.jpg)  
+
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Tabla2x.jpg) 
+
+Y los siguientes mapas de Karnaugh: 
+
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Kar1.jpeg)  
+
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Kar2.jpeg)  
+
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Kar3.jpeg)  
+
+
 
 ## Implementación  
 Se construyó dispositivo de la siguiente forma:  
