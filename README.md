@@ -1,3 +1,4 @@
+
 # Alarma 
 _Juan Angelo Chaves, Tomás Santiago Rodríguez y Juan David Rodríguez Lobelo_
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/EscudoUNAL1.jpg)
@@ -6,4 +7,8 @@ En este proyecto se expone el diseño e implementación de un sistema para monit
 El sistema permitirá a los usuarios conocer el consumo energético de cada dispositivo y así tomar medidas para reducir el consumo y ahorrar energía. 
 ## Alcance y Problemática
 En Colombia muchas personas tienen dificultades para pagar sus facturas de energía eléctrica debido al alto costo de la electricidad y a veces, el consumo excesivo de energía. Un dispositivo para el ahorro de energía podría ayudar a reducir los costos de energía de las familias colombianas y contribuir a la sostenibilidad ambiental. Se pretende que este dispositivo sea de bajo costo para que este al alcance de cualquier persona que quiera controlar su consumo eléctrico.
-
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Conexiones_Teclado_1.jpeg)
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Conexiones_Teclado_2.jpeg)
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Conexiones_Teclado_3.jpeg)
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/FotoFPGA.jpeg)
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Foto_Teclado_Matricial.jpeg)
