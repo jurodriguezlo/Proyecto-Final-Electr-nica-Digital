@@ -9,11 +9,20 @@ El sistema permitirá a los usuarios conocer el consumo energético de cada disp
 En Colombia muchas personas tienen dificultades para pagar sus facturas de energía eléctrica debido al alto costo de la electricidad y a veces, el consumo excesivo de energía. Un dispositivo para el ahorro de energía podría ayudar a reducir los costos de energía de las familias colombianas y contribuir a la sostenibilidad ambiental. Se pretende que este dispositivo sea de bajo costo para que este al alcance de cualquier persona que quiera controlar su consumo eléctrico.
 ## Diagramas de bloques  
 
+Se realizo un detallado diagrama de bloques que permite visualizar de manera precisa todos los componentes que conforman el proyecto finalizado. Este diagrama proporciona una representación gráfica clara y completa de cada uno de los elementos involucrados en el proyecto, lo que facilita su comprensión y análisis.
+
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Esq1x.jpg)
 ## Tablas de verdad  
 
+ Se diseño una maquina de estados tipo moore con la siguiente codificacion de entradas.  
+
+ ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Tabla1.jpg)  
+
+ Tabulacion de las tablas de estado presente y futuro:
+ 
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Tabla1.jpg)  
 
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Tabla2x.jpg) 
 ## Mapas de Karnaugh  
 
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Kar1.jpeg)  
@@ -29,11 +38,18 @@ En Colombia muchas personas tienen dificultades para pagar sus facturas de energ
 
 ## Máquina de estados  
 
+Esta es la máquina de estados que permite guardar los números del teclado:  
+
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Estados1x.jpg)  
 
 ## Implementación  
+Se construyó dispositivo de la siguiente forma:  
+
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/FotoFPGAx.jpg)  
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Foto_Teclado_Matricialx.jpg)  
+
+Con las siguientes conexiones de la FPGA al teclado matricial:  
+
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Conexiones_Teclado_1x.jpg)
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Conexiones_Teclado_2x.jpg)
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/Conexiones_Teclado_3x.jpg)
