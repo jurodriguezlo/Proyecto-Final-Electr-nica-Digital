@@ -1,0 +1,52 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+entity primer is
+
+	port
+	(
+		-- Input ports
+		c: in  std_logic;
+		star: in std_logic;
+		reset: in std_logic;
+		mux: in std_logic;
+		-- Output ports
+		t1 : buffer std_logic; 
+		t2 : buffer std_logic;
+		t3 : buffer std_logic; 
+		t4 : buffer std_logic;
+		t5 : buffer std_logic; 
+		t6 : buffer std_logic;
+		buzer : buffer std_logic;
+		segmentos	: out std_logic_vector(6 downto 0) );
+	);
+		
+end primer;
+
+architecture muu of primer is 
+
+	component principal
+	port (-- Input ports
+		c: in  std_logic;
+		star: in std_logic;
+		reset: in std_logic;
+		mux: in std_logic;
+		-- Output ports
+		t1 : buffer std_logic; 
+		t2 : buffer std_logic;
+		t3 : buffer std_logic; 
+		t4 : buffer std_logic;
+		t5 : buffer std_logic; 
+		t6 : buffer std_logic;
+		buzer : buffer std_logic;
+		segmentos	: out std_logic_vector(6 downto 0) );
+	end component;
+	
+begin 
+
+	contad : principal port map (clk,star,reset,mux,t1,t2,t3,t4,t5,t6,buzer,segmentos);
+	
+
+end muu;
